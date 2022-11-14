@@ -1,4 +1,4 @@
-# Exercício Flask
+# Lista de execícios 02 - Sistemas distribuidos
 
 Construir uma APIRestful (utilizando flask) para controlar uma agenda de contatos:
 
@@ -25,3 +25,9 @@ OBS: As consultas devem ser feitas de forma que seja possível consultar por coi
 6 - Criar terceiro endpoint inserindo um novo registro e usar o protocolo http.
 7 - Criar quarto endpoint deletando um novo registro e usar o protocolo http.
 8 - Utilize a conexão com o banco de dados para fazer as operações CRUD
+
+ 
+
+ 
+
+Postar arquivo compactado (.zip) com todos os arquivos necessários para rodar a aplicação (database.e código em python) OU link do github com conteúdo completo
