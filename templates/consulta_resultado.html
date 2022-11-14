@@ -1,0 +1,52 @@
+<html>
+<body>
+<footer>
+
+    <nav id="sobre">
+        <a href="http://localhost:5000/">HOME</a>
+    </nav>
+</footer>
+    <style>
+        body {
+        text-align: center;
+        align-items: center;
+        background-color: black;
+        color: aliceblue;
+    }
+        div{
+            border: solid red;
+            margin-right: 250px;
+            margin-left: 250px;
+            margin-top: 30px;
+        }
+        #sobre{
+            margin-top: 80px;
+            margin-bottom: 50px;
+
+        }
+        #sobre a{
+            color: white;
+        }
+
+        #sobre a:hover{
+            border-radius: 10%;
+            padding: 10px;
+            color: black;
+            background-color: aliceblue;
+        }
+</style>
+
+    {% for i in lista: %}
+    <div>
+        <p>Id: {{i[0]}}</p><br>
+        <p>Nome: {{i[1]}}</p><br>
+        <p>Empresa: {{i[2]}}</p><br>
+        <p>Telefone: {{i[3]}}</p><br>
+        <p>Email: {{i[4]}}</p><br>
+    </div><br>
+    {% endfor %}
+
+
+</body>
+</html>
+
